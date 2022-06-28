@@ -69,3 +69,26 @@ int * m1d = new int [100];
 m[i][j] === *(m[i] + j)
 int **m = new int*[5]; // Выделение под строки
 for (int x=0; x<5;x++) m[i] = new int[4]; // Выделения под значения
+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
+
+    2.8 Строки и ввод-вывод
+Строки - массивы типа char
+Работа со строками в стиле С++ намного удобнее и безопаснее
+
+#include <string>
+using namespace std;
+string s1 = "Hello";
+s1.size(); // Размер
+string s2 = ", world";
+s1+=s2;
+
+Операторы ввода-вывода - cin, cout
+
+int a;
+cin >> a;
+cout << a;
+
+fstream обеспечивает работу с файлами
+
+ifstream input("input.txt"); // - input
+ofstream output("input.txt"); // - output
