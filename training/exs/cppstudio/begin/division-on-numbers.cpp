@@ -12,7 +12,6 @@ unsigned count_of_radix(int n)
     }
     return cnt;
 }
-
 void div_on_radix(int n, int cnt, int* arr)
 {
     int tmp;
