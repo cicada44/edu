@@ -3,6 +3,7 @@
     "clang-format.executable": "/usr/bin/clang-format",
     "editor.formatOnSave": true,
     "files.associations": {
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "ostream": "cpp"
     }
 }
