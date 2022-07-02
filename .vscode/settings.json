@@ -4,6 +4,7 @@
     "editor.formatOnSave": true,
     "files.associations": {
         "cmath": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }
