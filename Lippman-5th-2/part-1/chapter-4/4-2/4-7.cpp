@@ -1,15 +1,20 @@
 #include <iostream>
-
+#include <limits>
 using namespace std;
 
 int main()
 {
-    int num;
+    short s = INT16_MAX;
+    int i = INT32_MAX;
+    long l = INT64_MAX;
 
-    cout << "input num: ";
-    cin >> num;
+    cout << "s - " << s << "\ti - " << i << "\tl - " << l << endl;
 
-    (0 == num % 2) ? cout << 0 << endl : cout << 1 << endl;
+    s += 1;
+    i += 1;
+    l += 1;
+
+    cout << "s - " << s << "\ti - " << i << "\tl - " << l << endl; // arter (+1)
 
     return 0;
 }
