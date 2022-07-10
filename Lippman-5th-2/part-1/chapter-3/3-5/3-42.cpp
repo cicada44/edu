@@ -21,7 +21,7 @@ int main()
     vector<int> vec_copy(size);
 
     for (auto x = vec_copy.begin(); x != vec_copy.end(); x++) {
-        cin >> *x;
+        cin >> *x`;
     }
 
     for (unsigned x = 0; x < size; x++)
