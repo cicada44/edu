@@ -1,0 +1,21 @@
+sstream strm; // strm - обьект класса sstream
+sstream strm(s); // strm - содержит в себе строку s
+strm.str(); // возвращает копию строки, которую хранит strm
+strm.str(s); // копирует строку s в обьект strm
+
+    8.3.1 Использование класса istringstream
+
+string line, word; // string and word from stream
+vector<PersonInfo> people;
+while (getline(cin, line)){
+    PersonInfo info;
+    istringstream record(line);
+    record >> info.name;
+    while (record >> word)
+        info.push_back(word);
+    people.push_back(info);
+}
+
+
+    8.3.2 Использование класса ostringstream
+Используется для обработки небольшими частями.
